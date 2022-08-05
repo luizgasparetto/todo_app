@@ -1,0 +1,93 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  errors:
+    todo: info
+
+linter:
+  rules:
+    always_declare_return_types: true
+    always_put_required_named_parameters_first: false
+    always_specify_types: false
+    avoid_annotating_with_dynamic: true
+    avoid_catches_without_on_clauses: false
+    avoid_double_and_int_checks: true
+    avoid_empty_else: true
+    avoid_escaping_inner_quotes: true
+    avoid_print: true
+    avoid_redundant_argument_values: true
+    avoid_unnecessary_containers: true
+    await_only_futures: true
+    lines_longer_than_80_chars: false
+    one_member_abstracts: false
+    depend_on_referenced_packages: false
+    prefer_const_constructors: true
+    prefer_const_constructors_in_immutables: true
+    prefer_const_declarations: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_single_quotes: true
+    public_member_api_docs: false
+    sized_box_for_whitespace: true
+    type_annotate_public_apis: false
+    use_full_hex_values_for_flutter_colors: true
+    use_key_in_widget_constructors: false
+    avoid_classes_with_only_static_members: false
+    require_trailing_commas: false
+    sort_constructors_first: true
+    always_use_package_imports: false,
+# linter:
+#   rules:
+#     # STYLE
+#     - camel_case_types
+#     - camel_case_extensions
+#     - library_names
+#     - file_names
+#     - library_prefixes
+#     - non_constant_identifier_names
+#     - constant_identifier_names # prefer
+#     - directives_ordering
+#     - curly_braces_in_flow_control_structures
+
+#     # USAGE
+#     - implementation_imports
+#     - avoid_relative_lib_imports
+#     - prefer_relative_imports
+#     - prefer_adjacent_string_concatenation
+#     - prefer_interpolation_to_compose_strings # prefer
+#     - unnecessary_brace_in_string_interps # avoid
+#     - prefer_collection_literals
+#     - prefer_is_empty
+#     - prefer_is_not_empty
+#     - avoid_function_literals_in_foreach_calls # avoid
+#     - prefer_iterable_whereType
+#     - prefer_function_declarations_over_variables
+#     - prefer_equal_for_default_values
+#     - avoid_init_to_null
+#     - unnecessary_getters_setters
+#     - unnecessary_this
+#     - prefer_initializing_formals
+#     - type_init_formals
+#     - empty_constructor_bodies
+#     - unnecessary_new
+#     - unnecessary_const
+#     - avoid_catching_errors
+#     - use_rethrow_when_possible
+
+#     # DESIGN
+#     - use_to_and_as_if_applicable # prefer
+#     - prefer_mixin
+#     - prefer_final_fields # prefer
+#     - use_setters_to_change_properties
+#     - avoid_setters_without_getters
+#     - avoid_returning_null # avoid
+#     - avoid_returning_this # avoid
+#     - avoid_types_on_closure_parameters # avoid
+#     - avoid_return_types_on_setters
+#     - prefer_generic_function_type_aliases
+#     - avoid_private_typedef_functions # prefer
+#     - avoid_positional_boolean_parameters # avoid
+#     - hash_and_equals
+#     - avoid_equals_and_hash_code_on_mutable_classes # avoid
+#     - avoid_null_checks_in_equality_operators
+#     - require_trailing_commas
+#     - prefer_single_quotes

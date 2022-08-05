@@ -1,0 +1,30 @@
+name: core
+description: A new Flutter package project.
+publise_to: "none"
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  todo_do_app:
+    path: ../todo_app
+
+  dependency_module:
+    path: ../dependency_module
+
+  tads_design_system:
+    path: ../tads_design_system
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mocktail: ^0.3.0
+
+flutter:

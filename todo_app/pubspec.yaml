@@ -1,0 +1,43 @@
+name: todo_do_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dependency_module:
+    path: ../dependency_module
+  faker: ^2.0.0
+
+  tads_design_system:
+    path: ../tads_design_system
+
+  core:
+    path: ../core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.3
+  flutter_native_splash: ^2.2.6
+  lint: ^1.10.0
+  mocktail: ^0.3.0
+  triple_test: ^1.0.0+1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
